@@ -9,7 +9,7 @@ app.get('/', (req, res, next) => {
     res.send('This is Test');
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = 8080;
 
 app.listen(PORT, () => {
     console.log(`Oogway test is listening on port ${PORT}`);
