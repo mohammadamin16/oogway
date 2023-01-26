@@ -1,0 +1,7 @@
+version: '1'
+services:
+  api:
+    image: oogway
+    build: .
+    ports:
+      - "80:3000"
