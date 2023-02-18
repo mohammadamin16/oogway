@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "nodemon app.ts"
+    "dev": "nodemon app.ts",
+    "serve": "node testapp.js"
   },
   "type": "module",
   "dependencies": {
